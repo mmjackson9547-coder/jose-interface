@@ -1,0 +1,40 @@
+{
+    "name": "spomky-labs/jose-interface",
+    "description": "JSON Object Signing and Encryption interfaces for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["JWS", "JWT", "JWE", "JWA", "JWK", "JWKSet", "Jot", "Jose", "RFC7515", "RFC7516", "RFC7517", "RFC7518", "RFC7519"],
+    "homepage": "https://github.com/Spomky-Labs/jose-interface",
+    "authors": [
+        {
+            "name": "Florent Morselli",
+            "homepage": "https://github.com/Spomky"
+        },{
+            "name": "All contributors",
+            "homepage": "https://github.com/Spomky-Labs/jose-interface/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jose\\":  "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jose\\Tests\\":  "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "spomky-labs/base64url": "~1.0.0",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.3.x-dev"
+        }
+    }
+}
