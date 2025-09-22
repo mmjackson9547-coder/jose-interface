@@ -26,7 +26,7 @@
     },
     "require": {
         "php": ">=5.4",
-        "spomky-labs/base64url": "~1.0.0",
+        "spomky-labs/base64url": "^2.0.4",
         "ext-curl": "*"
     },
     "require-dev": {
